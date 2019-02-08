@@ -34,7 +34,7 @@
 		<snapshotRepository>
 			<id>MAVEN-SNAPSHOT</id>
 			<url>http://52.66.208.77:8081/repository/Pcr/</url>
-		</snapshotRepository
+	  </snapshotRepository>
   </distributionManagement>
 
   <build>
