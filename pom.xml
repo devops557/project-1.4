@@ -24,11 +24,11 @@
   <distributionManagement>
     
 	  <repository>
-			<id>MAVEN-RELEASE</id>
+			<id>nexus</id>
 			<url>http://52.66.208.77:8081/repository/ARTECH/</url>
 		</repository>
 		<snapshotRepository>
-			<id>MAVEN-SNAPSHOT</id>
+			<id>SNAPSHOT</id>
 			<url>http://52.66.208.77:8081/repository/Pcr/</url>
 	  </snapshotRepository>
   </distributionManagement>
