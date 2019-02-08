@@ -27,6 +27,14 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+	  <repository>
+			<id>MAVEN-RELEASE</id>
+			<url>http://52.66.208.77:8081/repository/ARTECH/</url>
+		</repository>
+		<snapshotRepository>
+			<id>MAVEN-SNAPSHOT</id>
+			<url>http://52.66.208.77:8081/repository/Pcr/</url>
+		</snapshotRepository
   </distributionManagement>
 
   <build>
@@ -205,18 +213,7 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-      <distributionManagement>
-
-		<repository>
-			<id>MAVEN-RELEASE</id>
-			<url>http://52.66.208.77:8081/repository/ARTECH/</url>
-		</repository>
-		<snapshotRepository>
-			<id>MAVEN-SNAPSHOT</id>
-			<url>http://52.66.208.77:8081/repository/Pcr/</url>
-		</snapshotRepository>		
-</distributionManagement
-   
+      
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
