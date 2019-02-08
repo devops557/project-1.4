@@ -22,11 +22,7 @@
   </modules>
 
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
+    
 	  <repository>
 			<id>MAVEN-RELEASE</id>
 			<url>http://52.66.208.77:8081/repository/ARTECH/</url>
