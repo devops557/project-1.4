@@ -23,14 +23,16 @@
 
   <distributionManagement>
     
-	  <repository>
-			<id>nexus</id>
-			<url>http://52.66.208.77:8081/repository/ARTECH/</url>
+	        <repository>
+		  <id>nexus</id>
+		  <name>ARTECH</name>
+		   <url>http://13.233.190.134:8081/repository/ARTECH/</url>
 		</repository>
 		<snapshotRepository>
 			<id>SNAPSHOT</id>
-			<url>http://52.66.208.77:8081/repository/Pcr/</url>
-	  </snapshotRepository>
+			<name>Pcr</name>
+			<url>http://13.233.190.134:8081/repository/Pcr/</url>
+	         </snapshotRepository>
   </distributionManagement>
 
   <build>
